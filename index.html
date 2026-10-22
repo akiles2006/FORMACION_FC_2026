@@ -1,205 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-
-    <title>Formacion F.C</title>
-    <link rel="stylesheet" href="estilos.css">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formación F.C. Escuela de fútbol en Colombia. Conoce nuestros entrenamientos, horarios y entrenadores.">
+  <title>Formación F.C. | Escuela de fútbol</title>
+  <link rel="stylesheet" href="estilos_corregido.css">
 </head>
 <body>
-    <header class="header">
-      <div class="menu">
-        <a href="#" class="logo">logo</a>
-        <input type="checkbox" id="menu">
-        <label class="menu">
-            <img src="imagenes/menu.png" class="menu-icono" alt="Logo de Formacion F.C">
-        </label>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">inicio</a></li>
-                <li><a href="#">Horarios</a></li>
-                <li><a href="#">Entrenadores</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+  <header class="header" id="inicio">
+    <nav class="menu" aria-label="Navegación principal">
+      <a class="logo-link" href="#inicio" aria-label="Formación F.C., inicio">
+        <img src="imagenes/logo-img.png" class="logo" alt="Logo de Formación F.C.">
+      </a>
+      <input type="checkbox" id="menu" aria-label="Abrir menú">
+      <label for="menu" class="menu-label" aria-label="Mostrar navegación"><span></span><span></span><span></span></label>
+      <ul class="navbar">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#horarios">Horarios</a></li>
+        <li><a href="#entrenadores">Entrenadores</a></li>
+        <li><a href="https://wa.me/573228930790?text=Hola%2C%20quiero%20recibir%20informaci%C3%B3n%20sobre%20Formaci%C3%B3n%20F.C." target="_blank" rel="noopener noreferrer">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-content container">
+      <div class="header-txt">
+        <p class="eyebrow">Pasión · Disciplina · Trabajo en equipo</p>
+        <h1>Formación F.C.</h1>
+        <span>Escuela de fútbol · Colombia</span>
+        <p>Formamos deportistas a través del fútbol, promoviendo el aprendizaje, la disciplina y el compañerismo.</p>
+        <a class="btn-1" href="#entrenadores">Conoce al equipo</a>
       </div>
-
-      <div class="header-content container">
-        <div class="header-txt">
-        <h1>Formacion F.C</h1>
-        <span>Colombia</span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-             nulla, facilis enim ipsam officia accusamus rep
-             rehenderit autem delectus odit ab laudantium modi ali
-             quam eius perspiciatis recusandae aliquid neque ea s
-             oluta.</p>
-        <a href="#" class="btn-1">informacion</a>
-        </div>
-        <div class="header-dir">
-
-            <div class="dir">
-                <h3>Direccion</h3>
-                <p>CR80D #7A-63</p>
-            </div>
-
-              <div class="dir">
-                <h3>Telefono</h3>
-                <p>3228930790</p>
-            </div>
-
-              <div class="dir">
-                <h3>Horario</h3>
-                <p>6am a 8pm </p>
-            </div>
-        </div>
+      <div class="header-dir">
+        <div class="dir"><h3>Dirección</h3><p>CR 80D # 7A-63</p></div>
+        <div class="dir"><h3>Teléfono</h3><p>322 893 0790</p></div>
+        <div class="dir"><h3>Horario de atención</h3><p>6:00 a. m. – 8:00 p. m.</p></div>
+      </div>
     </div>
-    </header>
-    <section class="welcome">
-        <div class="welcome-b"></div>
+  </header>
 
-        <div class="welcome-2">
-            <h2>Bienvenidos a la escuela de futbol</h2>
+  <section class="welcome" id="nosotros">
+    <div class="welcome-b" role="img" aria-label="Imagen de la escuela de fútbol"></div>
+    <div class="welcome-2">
+      <p class="eyebrow">Bienvenidos</p>
+      <h2>Crece dentro y fuera de la cancha</h2>
+      <p>En Formación F.C. buscamos que cada jugador fortalezca sus habilidades futbolísticas, la confianza y el respeto por sus compañeros.</p>
+      <p>Consulta nuestros horarios y conoce al equipo de entrenadores. Para confirmar cupos, edades, categorías y días de entrenamiento, escríbenos directamente.</p>
+      <a class="btn-1" href="https://wa.me/573228930790?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20escuela%20Formaci%C3%B3n%20F.C." target="_blank" rel="noopener noreferrer">Solicitar información</a>
+    </div>
+  </section>
 
-            <P class="b1">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequunt
-                ur magnto nostrum.
-            </P>
-            <P>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequunt
-                ur magnam ea eum, tenetur iste explicabo quia excep
-                turi debitis, unde vitae numquam sapiente architecto praese
-                ntium molestias, maiores eaque iusto nostrum natus.
-            </P>
-            <a href="#" class="btn-1">informacion</a>
-
-        </div>
+  <main>
+    <section class="services container" id="servicios">
+      <div class="section-heading">
+        <p class="eyebrow">Lo que ofrecemos</p>
+        <h2>Nuestros servicios</h2>
+        <hr>
+        <p>Entrenamientos orientados al aprendizaje del fútbol y al desarrollo de habilidades deportivas.</p>
+      </div>
+      <div class="services-group">
+        <article class="services-1">
+          <img src="imagenes/entrenamiento_img.png" alt="" loading="lazy">
+          <h3>Entrenamientos</h3>
+          <p>Práctica y desarrollo de fundamentos técnicos y trabajo en equipo.</p>
+          <a href="#entrenadores">Conocer entrenadores →</a>
+        </article>
+        <article class="services-1">
+          <img src="imagenes/horarios_img.png" alt="" loading="lazy">
+          <h3>Horarios</h3>
+          <p>Consulta los turnos disponibles y confirma cuál corresponde a tu categoría.</p>
+          <a href="#horarios">Ver horarios →</a>
+        </article>
+        <article class="services-1">
+          <img src="imagenes/contacto_img.png" alt="" loading="lazy">
+          <h3>Contacto</h3>
+          <p>Resuelve tus dudas sobre inscripciones, cupos y entrenamientos.</p>
+          <a href="https://wa.me/573228930790?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Formaci%C3%B3n%20F.C." target="_blank" rel="noopener noreferrer">Escribir por WhatsApp →</a>
+        </article>
+      </div>
     </section>
 
-    <main class="services container">
-        <div class="services-txt">
-            <h2>nuestros servicios</h2>
-            <hr>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam f
-                acere voluptatum, esse quis voluptatem ipsum exercitationem ex, autem reru
-                m velit repellat praesentium similique delectus quaerat illum mollitia
-                expedita! Fugiat, nemo.
-            </p>
+    <section class="schedule-section" id="horarios">
+      <div class="schedule-content container">
+        <div>
+          <p class="eyebrow">Organiza tu semana</p>
+          <h2>Horarios de atención y entrenamientos</h2>
+          <p>El horario general de atención indicado es de 6:00 a. m. a 8:00 p. m. Los horarios específicos de entrenamiento pueden variar según la categoría y la disponibilidad.</p>
+          <p>Escríbenos para confirmar días, horas, edades y cupos antes de asistir.</p>
+          <a class="btn-1" href="https://wa.me/573228930790?text=Hola%2C%20%C2%BFme%20pueden%20compartir%20los%20horarios%20de%20entrenamiento%20y%20las%20categor%C3%ADas%20disponibles%3F" target="_blank" rel="noopener noreferrer">Consultar horarios</a>
         </div>
-        <div class="services-group">
-            <div class="services-1">
-                <img src="imagenes/entrenamiento_img.png" alt="">
-                <h3>Entrenamientos</h3>
-                <p>expedita! Fugiat, nemo.</p>
-                <a href="#">saber mas</a>
-            </div>
-            <div class="services-1">
-                <img src="imagenes/horarios_img.png" alt="">
-                <h3>Horarios</h3>
-                <p>expedita! Fugiat, nemo.</p>
-                <a href="#">saber mas</a>
-            </div>
-            <div class="services-1">
-                <img src="imagenes/contacto_img.png" alt="">
-                <h3>Contacto</h3>
-                <p>expedita! Fugiat, nemo.</p>
-                <a href="#">saber mas</a>
-            </div>
+        <div class="schedule-card">
+          <h3>Información general</h3>
+          <p><strong>Atención:</strong> 6:00 a. m. – 8:00 p. m.</p>
+          <p><strong>Dirección:</strong> CR 80D # 7A-63</p>
+          <p><strong>Teléfono / WhatsApp:</strong> 322 893 0790</p>
         </div>
-    </main>
+      </div>
+    </section>
 
+    <section class="prices" id="precios">
+      <div class="prices-1">
+        <p class="eyebrow">Información para familias</p>
+        <h2>Lista de precios</h2>
+        <p>Estos son los valores que aparecen en la información inicial. Confirma por WhatsApp qué incluye cada opción y si el precio corresponde a una clase, semana o mes.</p>
+        <table>
+          <tbody>
+            <tr><th scope="row">Entrenamiento 1</th><td>$50</td></tr>
+            <tr><th scope="row">Entrenamiento 2</th><td>$30</td></tr>
+            <tr><th scope="row">Entrenamiento 3</th><td>$70</td></tr>
+          </tbody>
+        </table>
+        <a class="btn-1" href="https://wa.me/573228930790?text=Hola%2C%20quisiera%20confirmar%20los%20precios%20y%20qu%C3%A9%20incluye%20cada%20entrenamiento." target="_blank" rel="noopener noreferrer">Consultar precios</a>
+      </div>
+      <div class="prices-2" role="img" aria-label="Imagen relacionada con los precios y entrenamientos"></div>
+    </section>
 
-<section class="prices">
-    <div class="prices-1">
-
-        <h2>lista de precios</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ullam nisi quam amet invent
-            ore quod error esse fuga earum eius consequatur tempore nostrum voluptates beata
-            e ducimus, veritatis non labore ipsum.
-        </p>
-<table>
-    <tbody>
-        <tr>
-            <th>entrenamiento</th>
-            <td>$50</td>
-        </tr>
-        <tr>
-            <th>entrenamiento 2</th>
-            <td>$30</td>
-        </tr>
-        <tr>
-            <th>entrenamiento 3</th>
-            <td>$70</td>
-        </tr>
-    </tbody>
-</table>
-    </div>
-
-    <div class="prices-2"></div>
-
-</section>
-
-<section class="personal-container">
-    <div class="personal-txt">
-        <h2>nuestros entrenadores</h2>
+    <section class="personal container" id="entrenadores">
+      <div class="section-heading">
+        <p class="eyebrow">Nuestro equipo</p>
+        <h2>Conoce a los entrenadores</h2>
         <hr>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem magnam vero la
-            boriosam sapiente error ipsa omnis enim beatae sed voluptatem ul
-            lam velit ipsam, facilis debitis. Eligendi sequi facilis exercit
-            ationem id.</p>
-    </div>
+        <p>El equipo de entrenadores acompaña el proceso deportivo y el aprendizaje de los jugadores.</p>
+      </div>
+      <div class="personal-group">
+        <article class="personal-1">
+          <img src="imagenes/img_2_entren.avif" alt="Fotografía del entrenador 1" loading="lazy">
+          <h3>Lorena</h3>
+          <p>Responsable de acompañar los entrenamientos y el desarrollo técnico de los jugadores.</p>
+        </article>
+        <article class="personal-1">
+          <img src="imagenes/imagen_1_entren.avif" alt="Fotografía del entrenador 2" loading="lazy">
+          <h3>David</h3>
+          <p>Apoya el aprendizaje de fundamentos, la disciplina y el trabajo en equipo.</p>
+        </article>
+        <article class="personal-1">
+          <img src="imagenes/img_3_entren.jpg" alt="Fotografía del entrenador 3" loading="lazy">
+          <h3>Lorenzo</h3>
+          <p>Acompaña el proceso de formación deportiva y el progreso de cada jugador.</p>
+        </article>
+      </div>
+    </section>
 
-    <div class="personal-group">
-        <div class="personal-1">
-            <img src="#" alt="">
-            <h3>lorem</h3>
-            <p>studvuwtvevceswvjhuer vercvu</p>
-            <a href="#">saber mas</a>
-        </div>
+    <section class="contact-section" id="contacto">
+      <div class="contact-card">
+        <p class="eyebrow">¿Quieres inscribirte?</p>
+        <h2>Hablemos por WhatsApp</h2>
+        <p>Escríbenos para consultar inscripciones, categorías, horarios, cupos y precios.</p>
+        <a class="btn-1 whatsapp-btn" href="https://wa.me/573228930790?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Formaci%C3%B3n%20F.C." target="_blank" rel="noopener noreferrer">Contactar por WhatsApp</a>
+    
+      </div>
+    </section>
+  </main>
 
-         <div class="personal-1">
-            <img src="#" alt="">
-            <h3>lorem</h3>
-            <p>studvuwtvevceswvjhuer vercvu</p>
-            <a href="#">saber mas</a>
-        </div>
-
-         <div class="personal-1">
-            <img src="#" alt="">
-            <h3>lorem</h3>
-            <p>studvuwtvevceswvjhuer vercvu</p>
-            <a href="#">saber mas</a>
-        </div>
-    </div>
-    <a href="#" class="btn-1">informacion</a>
-</section>
-
-<footer>
-
-    <div class="footer-bg">
-        <h2>reserva una cita</h2>
-        <form>
-            <div class="campo-1">
-            <input class="campo" type="text" placeholder="nombre">
-             <input class="campo" type="number" placeholder="Telefono">
-            </div>
-
-            <div class="campo-1">
-            <input class="campo" type="text" placeholder="direccion">
-             <input class="campo" type="email" placeholder="correo">
-            </div>
-
-            <textarea class="campo" cols="30" rows="10" placeholder="texto"></textarea>
-            <input type="submit" value="enviar" class="btn-1">
-        </form>
-    </div>
-
-    <div class="footer-txt">
-        <p>
-            eiugiywciygeiyiyruycbiyevciyrviycv
-        </p>
-    </div>
-</footer>
-
-
+  <footer class="footer-txt">
+    <p>© <span id="year"></span> Formación F.C. · Escuela de fútbol</p>
+    <a href="#inicio">Volver al inicio ↑</a>
+  </footer>
+  <script>
+    // Cierra el menú móvil después de elegir una sección.
+    document.querySelectorAll('.navbar a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        document.getElementById('menu').checked = false;
+      });
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
